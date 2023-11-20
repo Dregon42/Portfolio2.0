@@ -7,7 +7,7 @@ export default function Resume() {
             title="PDF Viewer"
             width="100%"
             height="400px"
-            src="s../components/the_pivot.pdf" 
+            src="src/assets/the_pivot.pdf" 
         ></iframe>
     </div>
   )
