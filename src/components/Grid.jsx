@@ -17,11 +17,32 @@ export default function Grid() {
         <section>
             <div className="grid-container">
                 <div className="grid_item" id="hobbies">
-                    <h3>Hobbies</h3>
+                    <h3>Skills</h3>
                     <ul>
-                        <li>Guitar</li>
-                        <li>Video games</li>
-                        <li>Cooking</li>
+                        <li>
+                            <img src="src/assets/nodejs-certified.png" alt="Node.js cetification" />
+                        </li>
+                        <li>
+                            <img src="src/assets/software-engineering-certificate-of-completion.png" alt="Cetification of Coding Temple Completion" />
+                        </li>
+                        <li>
+                            <img src="src/assets/python-certified.png" alt="Python certification" />
+                        </li>
+                        <li>
+                            <img src="src/assets/react-certified.2.png" alt="Reac.js certification" />
+                        </li>
+                        <li>
+                            <img src="src/assets/typescript-certified.png" alt="TypeScript certification" />
+                        </li>
+                        <li>
+                            <img src="src/assets/javascript-certified.2.png" alt="JavaScript certification" />
+                        </li>
+                        <li>
+                            <img src="src/assets/html-certified.1.png" alt="HTML certification" />
+                        </li>
+                        <li>
+                            <img src="src/assets/css-certified.1.png" alt="CSS certification" />
+                        </li>
                     </ul>
                 </div>
                 <div className="grid_item " id="history">
