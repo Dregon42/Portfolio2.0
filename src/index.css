@@ -1,3 +1,18 @@
-@tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .all-\[unset\] {
+      all: unset;
+    }
+}
+
+:root {
+    --header-2-font-family: "SairaCondensed-Bold", Helvetica;
+    --header-2-font-size: 30px;
+    --header-2-font-style: normal;
+    --header-2-font-weight: 700;
+    --header-2-letter-spacing: 0px;
+    --header-2-line-height: normal;
+    --variable-collection-slate: rgba(72, 67, 67, 1);
+  }

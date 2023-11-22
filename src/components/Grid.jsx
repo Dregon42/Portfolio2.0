@@ -1,7 +1,7 @@
 import React from 'react';
-import '../components/Grid.css'
+// import '../components/Grid.css'
 import Resume from '../components/Resume';
-import OneMooreBrantley from './LoveMe';
+import Frame from './LoveMe';
 
 export default function Grid() {
   return (
@@ -41,7 +41,7 @@ export default function Grid() {
                             <img src="src/assets/html-certified.1.png" alt="HTML certification" />
                         </li>
                         <li>
-                            <img src="src/assets/css-certified.1.png" alt="CSS certification" />
+                            <img src="src/assets/css-certified.1.png" alt="CSS certification" /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae veritatis atque architecto omnis, error perferendis mollitia repellendus, provident nobis, consectetur possimus tenetur optio. Voluptatum, ipsa! Sequi incidunt odio pariatur quas.
                         </li>
                     </ul>
                 </div>
@@ -57,7 +57,7 @@ export default function Grid() {
                     <Resume />
                 </div>
                 <div className="grid_item" id="family-photo">
-                    <OneMooreBrantley />
+                    <Frame />
                 </div>
                 <div className="grid_item" id="favorite">
                     <img src="" alt="Remember The Titans"/> 
