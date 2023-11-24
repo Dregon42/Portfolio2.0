@@ -1,110 +1,98 @@
-import React from 'react';
-// import '../components/Grid.css'
-import Resume from '../components/Resume';
-import Frame from './LoveMe';
+import React from "react";
 
 export default function Grid() {
   return (
-    <div>
-        <nav className="navbar h-44 mb-10 shadow fixed-top">
-            <div className="container relative top-6">
-                <a href="index.html" className="navbar-brand">
-                    <h1>L'Rae Brantley</h1>
-                </a>
-            </div>
-        </nav>
-
-        <section>
-            <div className="grid-container">
-                <div className="grid_item" id="hobbies">
-                    <h3>Skills</h3>
-                    <ul>
-                        <li>
-                            <img src="src/assets/nodejs-certified.png" alt="Node.js cetification" />
-                        </li>
-                        <li>
-                            <img src="src/assets/software-engineering-certificate-of-completion.png" alt="Cetification of Coding Temple Completion" />
-                        </li>
-                        <li>
-                            <img src="src/assets/python-certified.png" alt="Python certification" />
-                        </li>
-                        <li>
-                            <img src="src/assets/react-certified.2.png" alt="Reac.js certification" />
-                        </li>
-                        <li>
-                            <img src="src/assets/typescript-certified.png" alt="TypeScript certification" />
-                        </li>
-                        <li>
-                            <img src="src/assets/javascript-certified.2.png" alt="JavaScript certification" />
-                        </li>
-                        <li>
-                            <img src="src/assets/html-certified.1.png" alt="HTML certification" />
-                        </li>
-                        <li>
-                            <img src="src/assets/css-certified.1.png" alt="CSS certification" /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae veritatis atque architecto omnis, error perferendis mollitia repellendus, provident nobis, consectetur possimus tenetur optio. Voluptatum, ipsa! Sequi incidunt odio pariatur quas.
-                        </li>
-                    </ul>
-                </div>
-                <div className="grid_item " id="history">
-                    <p className='text-2xl'>
-                        "<strong>Pivoting</strong> from operations management to web development has been eye-opening, and the challenges along the way have been incredibly rewarding. 
-                        The pivot, though not taken lightly, has proven to be profoundly worthwhile. In the world of web development, I've discovered an unprecedented interest 
-                        and passion, bringing a newfound joy to problem-solving and crafting innovative solutions. This shift not only unlocked doors to a dynamic field but also 
-                        kindled a genuine enthusiasm for the creative and problem-solving facets of web development that I never experienced before."
-                    </p>
-                </div>
-                <div className="grid_item" id="fun-photo">
-                    <Resume />
-                </div>
-                <div className="grid_item" id="family-photo">
-                    <Frame />
-                </div>
-                <div className="grid_item" id="favorite">
-                    <img src="" alt="Remember The Titans"/> 
-                </div>
-                <div className="grid_item" id="poll">
-                    <form action="" id="sign_in">
-                        <div className="input-group">
-                            <h3>Sign In!</h3>
-                    
-                            <div className="form_control" id="email">
-                                <label for="email">Email</label>
-                                <input type="text" aria-label="Email" id="email" placeholder="Email"/>
-                            </div>
-                            <div className="form_control" id="password">
-                                <label for="password">Password</label>
-                                <input type="text" aria-label="Password" id="password"  placeholder="Password"/>
-                            </div>
-                            <input type="submit" value="submit"/>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
-
-        <footer>
-            <div className="footer-content">
-                <div className="footer-info">
-                    <h3>Contact Me</h3>
-                    <div className="info-item" id="address">
-                        <div>
-                            <i className="ml-4 fa-solid fa-map-location"></i>
-                        </div>
-                        <div >
-                            <p>Address: 3477 Union Ave, Cleveland, OH 44120</p>
-                        </div>
-                    </div>
-                    <div className="info-item" id phone>
-                        <i className="ml-4 fa-solid fa-phone"></i>
-                        <p>Phone: (572) 337-3466</p>
-                    </div>
-                    <div className="info-item" id="my-email">
-                        <i className="ml-4 fa-solid fa-envelope"></i>
-                        <p>Email: Zoolander@Blue_Steele.com</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
+    <div className="flex flex-col w-[1440px] h-[937px] items-center gap-[24px] px-[50px] py-[18px] relative">
+      <div className="flex items-center gap-[24px] px-[112px] py-0 relative self-stretch w-full flex-[0_0_auto]">
+        <div className="inline-flex flex-col h-[369px] items-center justify-center gap-[26px] px-[37px] py-[31px] relative flex-[0_0_auto] bg-[#d9d9d9dd] rounded-[100px] shadow-[5px_-8px_40px_#000000]">
+          <img
+            className="relative self-stretch w-full h-[234px] ml-[-8.50px] mr-[-16.50px] object-cover"
+            alt="Box champy"
+            src="box-champy.png"
+          />
+          <div className="relative self-stretch [font-family:'Lato-Bold',Helvetica] font-bold text-variable-collection-slate text-[20px] text-center tracking-[0] leading-[normal]">
+            Created with&nbsp;&nbsp;Figma
+          </div>
+        </div>
+        <div className="flex flex-col h-[369px] items-center justify-center gap-[36px] px-[30px] py-[20px] relative flex-1 grow bg-[#d9d9d9] rounded-[100px] overflow-hidden shadow-[5px_-8px_40px_#000000]">
+          <div className="relative self-stretch h-[39px] [font-family:'Saira_Condensed-Bold',Helvetica] font-bold text-black text-[30px] text-center tracking-[0] leading-[normal]">
+            CERTIFICATIONS
+          </div>
+          <div className="flex flex-wrap content-between h-[225px] items-center justify-between relative self-stretch w-full">
+            <img
+              className="relative w-[100px] h-[100px] object-cover"
+              alt="Software engineering"
+              src="software-engineering-certificate-of-completion-1.png"
+            />
+            <img
+              className="relative w-[100px] h-[100px] object-cover"
+              alt="Typescript certified"
+              src="typescript-certified-1.png"
+            />
+            <img
+              className="relative w-[100px] h-[100px] object-cover"
+              alt="Javascript certified"
+              src="javascript-certified-1.png"
+            />
+            <img className="relative w-[100px] h-[100px] object-cover" alt="Css certified" src="css-certified.png" />
+            <img
+              className="relative w-[100px] h-[100px] object-cover"
+              alt="React certified"
+              src="react-certified-1.png"
+            />
+            <img className="relative w-[100px] h-[100px] object-cover" alt="Html certified" src="html-certified.png" />
+            <img
+              className="relative w-[100px] h-[100px] object-cover"
+              alt="Python certified"
+              src="python-certified-1.png"
+            />
+            <img
+              className="relative w-[100px] h-[100px] object-cover"
+              alt="Nodejs certified"
+              src="nodejs-certified-1.png"
+            />
+          </div>
+        </div>
+        <img
+          className="relative w-[345px] h-[426px] mt-[-18.00px] mb-[-39.00px] mr-[-45.00px] object-cover"
+          alt="Headshot"
+          src="headshot.png"
+        />
+      </div>
+      <div className="flex items-center justify-center gap-[24px] px-[110px] py-0 relative self-stretch w-full flex-[0_0_auto]">
+        <div className="flex flex-col w-[265px] h-[431px] items-center gap-[32px] px-[29px] py-[41px] relative bg-[#967676] rounded-[100px] shadow-[5px_-1px_40px_#000000]">
+          <div className="relative w-fit mt-[-1.00px] [font-family:'Lato-Bold',Helvetica] font-bold text-black text-[20px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+            Transferable Skills:
+          </div>
+          <div className="relative w-fit font-skills font-[number:var(--skills-font-weight)] text-black text-[length:var(--skills-font-size)] text-center tracking-[var(--skills-letter-spacing)] leading-[var(--skills-line-height)] [font-style:var(--skills-font-style)]">
+            Anaconda
+          </div>
+          <div className="relative w-fit font-skills font-[number:var(--skills-font-weight)] text-black text-[length:var(--skills-font-size)] text-center tracking-[var(--skills-letter-spacing)] leading-[var(--skills-line-height)] [font-style:var(--skills-font-style)]">
+            Github
+          </div>
+          <div className="relative w-fit font-skills font-[number:var(--skills-font-weight)] text-black text-[length:var(--skills-font-size)] text-center tracking-[var(--skills-letter-spacing)] leading-[var(--skills-line-height)] [font-style:var(--skills-font-style)]">
+            Insomnia
+          </div>
+          <div className="relative w-fit font-skills font-[number:var(--skills-font-weight)] text-black text-[length:var(--skills-font-size)] text-center tracking-[var(--skills-letter-spacing)] leading-[var(--skills-line-height)] [font-style:var(--skills-font-style)]">
+            Figma
+          </div>
+          <div className="relative w-fit font-skills font-[number:var(--skills-font-weight)] text-black text-[length:var(--skills-font-size)] text-center tracking-[var(--skills-letter-spacing)] leading-[var(--skills-line-height)] [font-style:var(--skills-font-style)]">
+            Jupyter Notebook
+          </div>
+        </div>
+        <div className="flex flex-col h-[441px] items-center justify-between pl-[19px] pr-[8px] pt-[19px] pb-[8px] relative flex-1 grow bg-[#d9d9d9] rounded-[100px] overflow-hidden shadow-[5px_0px_40px_#000000]">
+          <img className="relative w-[360px] h-[240px]" alt="Rectangle" src="rectangle-2.png" />
+          <div className="relative w-[170px] [font-family:'Saira_Condensed-Bold',Helvetica] font-bold text-black text-[20px] text-center tracking-[0] leading-[normal]">
+            ONE MOORE BRANTLEY
+          </div>
+          <p className="relative w-[358px] h-[137px] [font-family:'Gowun_Batang-Regular',Helvetica] font-normal text-black text-[15px] tracking-[0] leading-[normal]">
+            This is a wedding website where guests can RSVP and leave a message for the happy couple on the Message
+            Board. There is also a page that has a gallery of photos of the couple. Each photo plays a song when
+            clicked.
+          </p>
+        </div>
+        <div className="relative w-[265px] h-[441px] rounded-[100px] shadow-[5px_-1px_40px_#000000] [background:linear-gradient(180deg,rgb(59.85,34.75,34.75)_0%,rgba(255,255,255,0)_100%)]" />
+      </div>
     </div>
-  )
-}
+  );
+};
