@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Grid() {
   return (
-    <div className="flex flex-col w-[1440px] h-[937px] items-center gap-[24px] px-[50px] py-[18px] relative">
+    <div className="flex flex-col w-[1440px] h-[937px] items-center gap-[24px] px-[30px] py-[50px] relative">
       <div className="flex items-center gap-[24px] px-[112px] py-0 relative self-stretch w-full flex-[0_0_auto]">
         <div className="inline-flex flex-col h-[369px] items-center justify-center gap-[26px] px-[37px] py-[31px] relative flex-[0_0_auto] bg-[#d9d9d9dd] rounded-[100px] shadow-[5px_-8px_40px_#000000]">
           <img
