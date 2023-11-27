@@ -8,6 +8,7 @@ module.exports = {
         "variable-collection-slate": "var(--variable-collection-slate)",
       },
       fontFamily: {
+        body: "var(--body-font-family)",
         "header-2": "var(--header-2-font-family)",
         skills: "var(--skills-font-family)",
       },

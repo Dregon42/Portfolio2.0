@@ -1,10 +1,8 @@
 import React from 'react';
-import Background from '../assets/luke-chesser-pJadQetzTkI-unsplash.jpg';
 
 export default function Home() {
   return (
-    <div className='bg-cover bg-center w-screen h-screen flex flex-row'
-    style={{ backgroundImage: `url(${ Background })`}}>
+    <div className='bg-cover bg-center w-screen h-screen flex flex-row [background:linear-gradient(180deg,rgb(42.28,111.62,133.52)_0%,rgba(42.28,111.62,133.52,0)_100%)]'>
       <div className=' flex-1 m-10 h-1/2 w-1/2 p-10 rounded-full relative top-50 left-44'>
         <img className='rounded-full z-30 shadow-2xl shadow-black' src="src/assets/NightLife.jpg" alt="photo of me" />
       </div>
