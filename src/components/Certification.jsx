@@ -6,7 +6,7 @@ export default function Certification() {
       <div className="relative self-stretch h-[39px] [font-family:'Saira_Condensed-Bold',Helvetica] font-bold text-black text-[30px] text-center tracking-[0] leading-[normal]">
         CERTIFICATIONS
       </div>
-      <div className="flex flex-wrap content-between h-[225px] items-center justify-between relative self-stretch">
+      <div className="flex flex-wrap content-between h-[225px] mx-5 items-center justify-between relative self-stretch">
         <img
           className="relative w-[100px] h-[100px]"
           alt="Software engineering"

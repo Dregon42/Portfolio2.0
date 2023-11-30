@@ -14,9 +14,9 @@ export default function Grid() {
           src="assets/IMG_2992.png"
         />
       </div>
-      <div className="flex items-center justify-center gap-[24px] px-[11px] py-0 relative self-stretch w-full flex-[0_0_auto]">
-        <div className="flex flex-col w-[265px] h-[411px] items-center gap-[32px] px-[29px] py-[41px] relative bg-[#967676] rounded-[100px] shadow-[5px_-1px_40px_#000000]">
-          <div className="relative w-fit mt-[-1.00px] [font-family:'Lato-Bold',Helvetica] font-bold text-black text-[20px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+      <div className="flex items-center gap-[24px] px-[11px] py-0 relative self-stretch w-[screen] flex-[0_0_auto] ">
+        <div className="flex flex-col w-[265px] h-[400px] items-center gap-[32px] px-[29px] py-[20px] relative bg-[#d9d9d9] rounded-[100px] shadow-[5px_-1px_40px_#000000]">
+          <div className="relative w-fit mt-[-1.00px] [font-family:'Lato-Bold',Helvetica] font-bold text-black text-3xl text-center tracking-[0] leading-[normal] whitespace-nowrap">
             Dev Tools:
           </div>
           <div className="relative w-fit font-skills font-[number:var(--skills-font-weight)] text-black text-[length:var(--skills-font-size)] text-center tracking-[var(--skills-letter-spacing)] leading-[var(--skills-line-height)] [font-style:var(--skills-font-style)]">
@@ -35,18 +35,30 @@ export default function Grid() {
             Jupyter Notebook
           </div>
         </div>
-        <div className="flex flex-col h-[441px] items-center justify-between pl-[19px] pr-[8px] pt-[19px] pb-[8px] relative flex-1 grow bg-[#d9d9d9] rounded-[100px] overflow-hidden shadow-[5px_0px_40px_#000000]">
-          <img className="relative w-[360px] h-[240px]" alt="Rectangle" src="assets/One_Moore_Brantley.PNG" />
+        <div className="flex flex-col h-[400px] items-center justify-between pl-[19px] pr-[8px] pt-[19px] pb-[8px] relative flex-1 grow bg-[#d9d9d9] rounded-[100px] overflow-hidden shadow-[5px_0px_40px_#000000]">
+          <a href="https://lively-taffy-cc585c.netlify.app" target="_blank"><img className="relative w-[320px] h-[240px] rounded-xl" alt="Rectangle" src="assets/One_Moore_Brantley.PNG" /></a>
           <div className="relative w-[170px] [font-family:'Saira_Condensed-Bold',Helvetica] font-bold text-black text-[20px] text-center tracking-[0] leading-[normal]">
             ONE MOORE BRANTLEY
           </div>
-          <p className="relative w-[358px] h-[137px] [font-family:'Gowun_Batang-Regular',Helvetica] font-normal text-black text-[15px] tracking-[0] leading-[normal]">
+          <div className="relative w-[358px] h-[137px] [font-family:'Gowun_Batang-Regular',Helvetica] font-normal text-black text-[15px] tracking-[0] leading-[normal]">
             This is a wedding website where guests can RSVP and leave a message for the happy couple on the Message
             Board. There is also a page that has a gallery of photos of the couple. Each photo plays a song when
             clicked.
-          </p>
+          </div>
         </div>
-        <div className="relative w-[265px] h-[441px] rounded-[100px] shadow-[5px_-1px_40px_#000000] [background:linear-gradient(180deg,rgb(59.85,34.75,34.75)_0%,rgba(255,255,255,0)_100%)]" />
+        <div className="flex flex-col h-[400px] items-center justify-between pl-[19px] pr-[8px] pt-[19px] pb-[8px] relative flex-1 grow bg-[#d9d9d9] rounded-[100px] overflow-hidden shadow-[5px_0px_40px_#000000]">
+          <div>
+            <a href="https://dancing-kangaroo-026fe2.netlify.app/" target="_blank">
+              <img src="assets/Meme.PNG" alt="" className="relative w-[325px] max-w-md h-[240px] mx-5 rounded-xl"/>
+            </a>
+            
+            <div>
+              <p className="[font-family:'Gowun_Batang-Regular',Helvetica]">
+                This Meme Generator is my <a href="https://publiclab.co/building-in-public">Build in Place</a> project. In this full stack application I utilized React.js, Flask, Redux, and Restful API
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

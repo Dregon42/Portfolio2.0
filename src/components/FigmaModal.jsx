@@ -8,8 +8,7 @@ const style = {
     transform: 'translate(-50%, -50%)',
     width: 500,
     height: 600,
-    bgcolor: 'background.paper',
-    border: '2px solid #000',
+    bgcolor: 'transparent',
     boxShadow: 24,
     p: 4,
   };
@@ -28,13 +27,13 @@ export default function FigmaModal() {
   return (
     <div className="inline-flex flex-col h-[369px] items-center justify-center gap-[26px] px-[37px] py-[31px] relative flex-[.5] bg-[#d9d9d9dd] rounded-[100px] shadow-[5px_-8px_40px_#000000]">
         <img
-            className="relative self-stretch w-full h-[234px] ml-[-8.50px] mr-[-16.50px] object-cover"
+            className="relative self-stretch w-[250px] h-[300px] p-10 pb-0 "
             alt="Box champy"
             src="assets/Untitled.png"
             onClick={handleOpen}
         />
         <div className="relative self-stretch [font-family:'Lato-Bold',Helvetica] font-bold text-variable-collection-slate text-[20px] text-center tracking-[0] leading-[normal]">
-            <h3>Created with Figma</h3>
+            <p>Created with Figma: Platform for UI/UX Design</p>
         </div>
         <Modal
             open={open}

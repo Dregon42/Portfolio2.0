@@ -12,6 +12,9 @@ module.exports = {
         "header-2": "var(--header-2-font-family)",
         skills: "var(--skills-font-family)",
       },
+      bowShadow: {
+        landing: "var(--landing)",
+      },
     },
   },
   plugins: [],

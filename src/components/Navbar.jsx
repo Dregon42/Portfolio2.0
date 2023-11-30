@@ -8,9 +8,9 @@ export default function Navbar() {
 
   return (
     <nav className={`contact rounded-full z-20 shadow-lg fixed top-2/3 right-3 shadow-black ${open ? 'w-72' : 'w-16 '}`}>
-      <div className={`contact-links rounded-full ${open ? 'w-full' : 'w-16'}`}>
+      <div className={`contact-links rounded-full`}>
         <i
-          className={`fa-solid fa-angles-left z-20 top-0.5 bg-blue-300 text-blue-200 text-4xl rounded-full shadow-lg shadow-black absolute  h-16 w-16 border-4 cursor-pointer ${open && 'rotate-180'}`}
+          className={`${open ? 'fa-solid item-center bottom-0 top-0 z-20  item-middle bg-blue-300  rounded-full shadow-lg shadow-black absolute  h-16 w-16 border-4 cursor-pointer' :'fa-solid fa-beat-fade item-center bottom-0 top-0 z-20  item-middle bg-blue-300  rounded-full shadow-lg shadow-black absolute  h-16 w-16 border-4 cursor-pointer'}`}
           onClick={() => setOpen(!open)}
         ></i>
         <ul className={`link-list flex flex-row place-content-center space-x-4 align-middle  ${!open && 'hidden'}`}>
